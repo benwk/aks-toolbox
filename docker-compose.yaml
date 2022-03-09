@@ -10,5 +10,5 @@ services:
     env_file:
       - .env
     volumes:
-      - ~/.kube/config:/root/.kube/config
+      - ~/.azure:/root/.azure
     network_mode: bridge
