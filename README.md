@@ -6,6 +6,6 @@ Use docker with envs to manage AKS
 
 ## Tasks
 
-- [ ] Basic Image
-- [ ] Port-forward Image
+- [x] Basic Image
+- [x] Port-forward Image
 - [ ] AKS cli with Node Image
