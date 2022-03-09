@@ -1,4 +1,4 @@
-name: Port Forward Image
+name: Node with xmysql Image
 
 on:
   push:

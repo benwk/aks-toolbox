@@ -1,4 +1,4 @@
-name: Port Forward Image
+name: Basic CLI Image
 
 on:
   push:
