@@ -5,6 +5,7 @@ on:
     branches:
       - release/port-forward-credentials
       - release/port-forward-service
+      - release/port-forward-local
 
 jobs:
   build-and-push:
