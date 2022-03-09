@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  port-forward:
+    restart: always
+    container_name: port-forward
+    image: benwk/aks-port-forward:${LOGIN_METHOD}-latest
+    ports:
+      - 8080:${LOCAL_PORT}
+    env_file:
+      - .env
+    network_mode: bridge
